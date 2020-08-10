@@ -23,6 +23,43 @@
 	    font-size:170%;
 	    border-radius:15px;
 	}
+	
+	        div {
+            margin: 0 auto;
+            width: 50%;
+            height: 100px;
+            /*border: 1px solid red;*/
+            text-align: center;
+            margin-top: 300px;
+        }
+
+        ul.pagination li {
+            list-style-type: none;
+            display: inline;
+
+        }
+
+        ul.pagination li a {
+            text-decoration: none;
+            color: black;
+            padding: 8px 10px; /*10px左右内边距， 8px上下内边距*/
+            border: 1px solid darkgray;
+            border-radius: 20px;
+
+        }
+
+
+        ul.pagination li a.active {
+            background: green;
+            color: white;
+        }
+
+        /*如果类名不为active并且鼠标经过才显示的样式*/
+        ul.pagination li a:hover:not(.active) {
+            background: darkseagreen;
+            border: 1px solid green;
+            font-size: 19px;
+        }
 	</style>
 
 </head>
@@ -31,13 +68,23 @@
 
 
 <ol>
- <li>
+ 	<li>
 	<a href="Lyrics/天光若死.html">
 	<button  class="button">天光若死If Light Dead</button></a><br>	
-</li>
- <li>
+	</li>
+	<li>
+	<a href="Lyrics/月中天.html">
+	<button  class="button">月中天 Moon in the Middle of the Sky</button></a><br>	
+	</li>
+	<li>
+	<a href="Lyrics/千秋诉.html">
+	<button  class="button">千秋诉Pour out My Heart before Death</button></a><br>	
+	</li>
+ 	<li>
 	<a href="Lyrics/梦里不知身是客.html">
-	<button  class="button">梦里不知身是客</button></a><br>	</li>
+	<button  class="button">梦里不知身是客</button></a><br>
+	</li>
+
   <li>茶</li>
 </ol>
 
