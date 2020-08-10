@@ -1,6 +1,6 @@
 ## Welcome to my Lyrics
 
-visit https://gitee.com/Wei0Sai/sing.github.io  in china
+visit https://wei0sai.gitee.io/sing.github.io/  in china
 https://wei0sai.github.io/sing.github.io/  in other areas
 
 ### Markdown
